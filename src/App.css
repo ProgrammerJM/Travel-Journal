@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap'); /* importing inter font family */
+
+*,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+section {
+  padding: 50px 100px 50px 100px;
+}
+.main {
+  min-height: 100vh;
+}
+.title {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+@media only screen and (max-width: 860px) {
+  .cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  section {
+    padding: 50px 0 0 0;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  section {
+    padding: 50px 0 50px 0;
+  }
+}

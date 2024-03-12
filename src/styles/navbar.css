@@ -1,0 +1,26 @@
+/* .navbar {
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  align-items: center;
+  background-color: #f55a5a;
+} */
+nav {
+  display: flex;
+  justify-content: center;
+}
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+  width: 750px;
+  background-color: #f55a5a;
+  padding: 10px;
+  margin-top: 10px;
+}
+.navbar > p {
+  color: white;
+  padding: 5px;
+}

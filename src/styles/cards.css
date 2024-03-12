@@ -1,0 +1,42 @@
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
+  flex-wrap: wrap;
+}
+
+.description > p {
+  text-align: justify;
+  max-width: 500px;
+}
+.description {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding-left: 20px;
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+}
+.header > img,
+span,
+a {
+  margin: 5px;
+}
+.location {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+.location-icon {
+  width: 14px;
+  height: 20px;
+}
+.view {
+  color: #918e9b;
+}
+.date {
+  font-weight: bold;
+}
