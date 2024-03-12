@@ -5,7 +5,7 @@ export default function Navbar() {
   return (
     <nav>
       <div className="navbar">
-        <img src="/images/logo.png" />
+        <img src="./images/logo.png" />
         <p>my travel journey</p>
       </div>
     </nav>
